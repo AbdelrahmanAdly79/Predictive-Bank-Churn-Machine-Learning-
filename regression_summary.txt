@@ -1,0 +1,29 @@
+Linear Regression Analysis (Target: EstimatedSalary)
+===================================================
+
+Top positive drivers of Salary:
+             Feature  Coefficient
+4      NumOfProducts  1899.134143
+7  Geography_Germany   325.019841
+2             Tenure   153.819259
+
+Top negative drivers of Salary:
+          Feature  Coefficient
+9     Gender_Male  -899.821563
+6  IsActiveMember -1202.044093
+5       HasCrCard -1280.295487
+
+Linear Regression Analysis (Target: Balance)
+============================================
+
+Top positive drivers of Balance:
+             Feature   Coefficient
+6  Geography_Germany  57331.085096
+8        Gender_Male   1956.733432
+0        CreditScore      4.963346
+
+Top negative drivers of Balance:
+         Feature   Coefficient
+2         Tenure   -168.817829
+4      HasCrCard  -2462.335411
+3  NumOfProducts -32139.432090
